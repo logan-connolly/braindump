@@ -10,3 +10,4 @@ categories: CS
 	- {:complexity:}[Big O Complexity]
 	- {:arrays:}[Arrays]
 	- {:search:}[Search]
+	- {:sort:}[Sort]

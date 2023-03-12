@@ -1,0 +1,25 @@
+* Sorting
+	- an array is considered sorted when `xi <= xi+1` for whole array
+
+** Bubble Sort
+	 - Big O Complexity: `n^2`
+	 -- you can think of Gauss's formula: `(n+1)*(n/2)`
+	 - the first iteration will place the largest item at the end of the array
+	 -- this means that we only need to consider the prior unsorted items in the next iteration
+	 -- so the number of items that we need to consider shrinks after each iteration
+
+	 @code typescript
+function bubble_sort(arr: number[]) {
+    // outer loop iterates on the length of array
+    for (let i = 0; i < arr.length; i++) {
+        // only need to iterate on unsorted items
+        for (let j = 0; j < arr.length - 1 - i; j++) {
+            // if previous item is greater, swap them
+            if (arr[j] > arr[j + 1]) {
+                let tmp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = tmp;
+            }
+        }
+    }
+	 @end
