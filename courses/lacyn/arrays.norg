@@ -1,0 +1,13 @@
+* Array Data Structure
+** What is it?
+	 - contingous memory space
+	 - needs to have a /specific/ type associated with it
+** How does insertion work?
+	 - go to address + width * offset (constant time)
+	 - don't insert, but overwrite (no allocation)
+	 - don't delete, but set to zero or sentinal value (no deallocation)
+** Key Takeaways
+	 - They are fixed size, contingous memory chunks
+	 -- which means you cannot grow it (only reallocate into new array)
+	 -- there is no "insertAt" or push/pop
+

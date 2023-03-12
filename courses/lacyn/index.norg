@@ -1,0 +1,12 @@
+@document.meta
+title: lacyn
+description: Last Algorithms Course You'll Need
+categories: CS
+@end
+
+{https://frontendmasters.com/courses/algorithms}[Course URL]
+
+* Modules
+	- {:complexity:}[Big O Complexity]
+	- {:arrays:}[Arrays]
+	- {:search:}[Search]

@@ -1,0 +1,23 @@
+* Big O Time Complexity
+** What is it?
+	 - categorize algorithm's time or memory requirements based on input
+	 - not supposed to be an exact measurement
+	 - meant to generalize the growth of your algorithm
+** How to calculate it?
+	 - Look for loops
+	 - ignore constants
+	 - always take worst case (upper bound "Big O")
+** Examples
+	 - O(1): constant time (does not grow with input)
+	 - O(logn): {** Binary Search}
+	 - o(n^1/2): {** Crystal Ball Challenge}
+	 - O(n): {** Linear Search}
+	 - O(nlogn): quicksort
+	 - O(n^2): nested for loop (n^3 would be 3 nested for loops)
+	 - O(2^n):
+	 - O(n!):
+** Key Takeaways
+	 - growth with respect to the input
+	 - constants are dropped
+	 - worst case is /usually/ the way we measure
+
